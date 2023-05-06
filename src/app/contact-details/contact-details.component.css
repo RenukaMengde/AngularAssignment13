@@ -1,0 +1,28 @@
+html,
+body,
+.intro {
+  height: 100%;
+}
+
+.bg-image-vertical {
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: auto 100%;
+}
+
+.required-field::after {
+    content: "*";
+    color: red;
+}
+
+.btn-square-md {
+    width: 150px !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 50px !important;
+    text-align: center;
+    padding: 0px;
+    font-size:18px;
+    }
